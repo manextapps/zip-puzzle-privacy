@@ -15,18 +15,20 @@
 
   <header>
     <h1>Privacy Policy, Zip Puzzle</h1>
-    <p class="meta">Effective date: October 26, 2026</p>
+    <p class="meta">Effective date: November 7, 2026</p>
   </header>
 
   <main id="content">
     <section class="summary" aria-labelledby="summary-title">
       <h2 id="summary-title">In short</h2>
       <ul>
-        <li>Zip Puzzle has no account, no sign in and no server of our own. We do not receive your game data.</li>
+        <li>Zip Puzzle has no account of its own and no server of our own. We do not receive your game data.</li>
+        <li>If you use Google Play Games, the app signs you in to it automatically (or when you tap Sign in) so your achievements and leaderboard times are kept by Google. This is optional and described in <a href="#play-games">section 9</a>.</li>
         <li>Your progress, best times, daily streak and settings are stored only on your device.</li>
         <li>The app shows ads using Google's ad SDK (Google AdMob). Google collects certain data, such as your IP address and advertising ID, to show ads, measure them and prevent fraud. This is described below.</li>
         <li>Where the law requires consent (for example in the EEA, the UK and Switzerland), you are asked before personalized ads are used, and you can change your choice at any time in <strong>Settings, Privacy choices</strong>.</li>
         <li>An optional one time purchase removes ads between puzzles. Payment is handled entirely by Google Play.</li>
+        <li>An optional daily reminder is scheduled on your device. It is off until you turn it on.</li>
       </ul>
     </section>
 
@@ -41,6 +43,7 @@
         <li><a href="#consent">Consent and your ad choices</a></li>
         <li><a href="#ad-id">Your advertising ID</a></li>
         <li><a href="#purchases">In app purchase</a></li>
+        <li><a href="#play-games">Google Play Games</a></li>
         <li><a href="#permissions">Android permissions</a></li>
         <li><a href="#children">Children</a></li>
         <li><a href="#retention">Data retention and deletion</a></li>
@@ -60,13 +63,13 @@
 
     <section id="the-app">
       <h2>2. About the app</h2>
-      <p>Zip Puzzle is a logic puzzle game: you draw one line through every cell of a grid and link the numbers in order. It includes numbered levels, a daily puzzle with a day streak, quick play by board size and difficulty, optional hints, themes and settings. Puzzles are created and played on your device. An internet connection is used only for ads, for the ad consent form, for the optional purchase, and when you choose to open a link such as this policy.</p>
+      <p>Zip Puzzle is a logic puzzle game: you draw one line through every cell of a grid and link the numbers in order. It includes numbered levels, a daily puzzle with a day streak, quick play by board size and difficulty, optional hints, themes and settings, Google Play Games achievements and leaderboards, a share button and an optional daily reminder. Puzzles are created and played on your device. An internet connection is used only for ads, for the ad consent form, for the optional purchase, for Google Play Games, and when you choose to open or share a link.</p>
     </section>
 
     <section id="collect">
       <h2>3. Data we collect</h2>
-      <p>We, the developer, do not operate a server for this app and do not collect, receive or store personal data about you. The app has no account or sign in, no analytics or crash reporting tools of our own, and does not use Firebase.</p>
-      <p>Ads in the app are provided by Google, which collects some data directly through its software development kit (SDK). That is explained in <a href="#ads">section 5</a>. The optional purchase is processed by Google Play, see <a href="#purchases">section 8</a>.</p>
+      <p>We, the developer, do not operate a server for this app and do not collect, receive or store personal data about you. The app has no account of its own, no analytics or crash reporting tools of our own, and does not use Firebase.</p>
+      <p>Ads in the app are provided by Google, which collects some data directly through its software development kit (SDK). That is explained in <a href="#ads">section 5</a>. The optional purchase is processed by Google Play, see <a href="#purchases">section 8</a>. Google Play Games is run by Google, see <a href="#play-games">section 9</a>.</p>
       <p>If you email us, we will receive your email address and whatever you choose to write. We use it only to reply and keep it only as long as needed for that purpose.</p>
     </section>
 
@@ -77,7 +80,8 @@
         <li>Game progress: your current level, best times per board size and difficulty, and how many quick play puzzles you have started.</li>
         <li>Daily puzzle results and your daily streak.</li>
         <li>Counters used to pace ads (for example, how many puzzles you solved since the last full screen ad).</li>
-        <li>Settings: theme, sound and vibration, and whether ads were removed by a purchase.</li>
+        <li>Settings: theme, sound and vibration, whether ads were removed by a purchase, and whether the daily reminder is on and at what time.</li>
+        <li>Counters used for achievements (for example, how many boards of each size you solved and your best time without a hint), a daily puzzle you left unfinished so you can continue it, and a friend's time from a link you opened.</li>
       </ul>
       <p>Google's ad, consent and billing libraries also store some information on your device, such as your consent choices, so that they work correctly.</p>
     </section>
@@ -125,74 +129,92 @@
       <p>You can buy a one time &ldquo;Remove ads&rdquo; upgrade. The purchase is made through Google Play Billing: Google handles the payment and your payment details, and we never see them. The app only receives confirmation from Google Play that the upgrade belongs to your Google account, so it can turn off full screen ads and restore the purchase on a new device. Google's handling of purchases is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and the Google Play terms.</p>
     </section>
 
-    <section id="permissions">
-      <h2>9. Android permissions</h2>
-      <p>The app does not ask you for runtime permissions such as location, camera, contacts or storage. The installed app includes the following permissions, which are added by Google's libraries:</p>
+    <section id="play-games">
+      <h2>9. Google Play Games</h2>
+      <p>The app uses Google Play Games Services for achievements and leaderboards. If you already have a Play Games profile, the app signs you in automatically when it starts; if you don't, nothing happens until you tap <strong>Sign in</strong>, and the game works the same without it.</p>
+      <p>When you are signed in, Google (not us) receives and stores:</p>
       <ul>
-        <li><strong>Internet access and network state</strong>: to load ads, the consent form and the purchase screen.</li>
+        <li>Your Play Games gamer identity: your gamer name, avatar and player ID.</li>
+        <li>The achievements you earn and your progress on them.</li>
+        <li>Your leaderboard scores: your daily puzzle time when you solve it without a hint on its own date, your longest daily streak, the number of levels you solved and the number of puzzles you solved.</li>
+        <li>Counts of a few game events, such as how many times a daily puzzle was solved or a time was shared.</li>
+        <li>Analytics and diagnostic data that Google's Play Games library collects to keep it working.</li>
+      </ul>
+      <p>Who can see your scores and achievements depends on your Play Games profile visibility (everyone, friends only or only you), which you control in Google Play Games. You can sign out, change your profile or delete your Play Games data in your <a href="https://play.google.com/games/profile">Play Games profile</a> or your <a href="https://myaccount.google.com">Google Account</a>. Google's handling of this data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and in <a href="https://developer.android.com/games/pgs/data-collection">Google's Play Games data disclosure</a>. We do not receive this data.</p>
+    </section>
+
+    <section id="permissions">
+      <h2>10. Android permissions</h2>
+      <p>The app does not ask you for runtime permissions such as location, camera, contacts or storage. The only permission it may ask for is notifications, and only when you turn on the daily reminder. The installed app includes the following permissions:</p>
+      <ul>
+        <li><strong>Notifications</strong> (<code>POST_NOTIFICATIONS</code>): for the optional daily reminder. It is off by default. When you turn it on, the app schedules one local notification a day on your device, and only shows it if you haven't solved that day's puzzle yet. There is no push server. You can turn it off in the app's Settings or in Android settings.</li>
+        <li><strong>Internet access and network state</strong>: to load ads, the consent form, the purchase screen and Google Play Games.</li>
         <li><strong>Advertising ID</strong> (<code>com.google.android.gms.permission.AD_ID</code>): lets the ad SDK read the advertising ID.</li>
         <li><strong>Android ad services</strong> (<code>ACCESS_ADSERVICES_AD_ID</code>, <code>ACCESS_ADSERVICES_ATTRIBUTION</code>, <code>ACCESS_ADSERVICES_TOPICS</code>): let the ad SDK use Android's Privacy Sandbox advertising features where the device supports them.</li>
         <li><strong>Google Play billing</strong> (<code>com.android.vending.BILLING</code>): lets the app offer the optional purchase.</li>
-        <li><strong>Wake lock and foreground service</strong>: required by the Android WorkManager library that the ad SDK uses for background tasks. The app itself does not run a foreground service.</li>
+        <li><strong>Wake lock and foreground service</strong>: required by the Android WorkManager library, which the ad SDK uses for background tasks and the app uses to schedule the daily reminder. The app itself does not run a foreground service.</li>
+        <li><strong>Google Play install referrer</strong> (<code>BIND_GET_INSTALL_REFERRER_SERVICE</code>): lets the app read, once and on your device, whether it was installed from a shared puzzle link, so it can open that puzzle.</li>
       </ul>
     </section>
 
     <section id="children">
-      <h2>10. Children</h2>
+      <h2>11. Children</h2>
       <p>The app is not directed at children. We do not knowingly collect personal information from children, and the app itself does not collect personal information from anyone. Ads in the app are served by Google, which collects the data described in <a href="#ads">section 5</a>. If you are a parent or guardian and have questions or concerns, please contact us.</p>
     </section>
 
     <section id="retention">
-      <h2>11. Data retention and deletion</h2>
+      <h2>12. Data retention and deletion</h2>
       <ul>
         <li><strong>Our servers</strong>: we have none, so we keep no copy of your game data.</li>
         <li><strong>On your device</strong>: game data stays until you clear the app's data in Android settings or uninstall the app.</li>
-        <li><strong>Google</strong>: data collected by Google's ad SDK and by Google Play is retained according to Google's policies. See the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/retention">How Google retains data</a>.</li>
+        <li><strong>Google</strong>: data collected by Google's ad SDK, by Google Play and by Google Play Games is retained according to Google's policies. You can delete your Play Games data in your <a href="https://play.google.com/games/profile">Play Games profile</a>. See the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/retention">How Google retains data</a>.</li>
       </ul>
     </section>
 
     <section id="backup">
-      <h2>12. Device backup</h2>
+      <h2>13. Device backup</h2>
       <p>The app allows Android's backup feature to include your game progress and settings, so they can be restored if you set up a new device. If backup is turned on in your device settings, Android may store this data in your Google Account backup or move it during a device to device transfer, under Google's terms and your device settings. Data stored by the ad and consent libraries is excluded from backup. You can turn backup off in your device's settings.</p>
     </section>
 
     <section id="links">
-      <h2>13. Sharing and links</h2>
+      <h2>14. Sharing and links</h2>
       <p>We do not sell or share your personal data, because we do not receive any. Apart from Google's libraries described above, the app sends information only when you choose to:</p>
       <ul>
         <li><strong>Open a link</strong>, such as this privacy policy or another of our games on Google Play. This policy is hosted on GitHub Pages; GitHub may log visitors' IP addresses for security purposes under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub General Privacy Statement</a>. This page uses no cookies, analytics or tracking scripts.</li>
+        <li><strong>Share</strong>: the share button opens Android's share menu with a short text you can read before sending: the date of the daily puzzle or the level number, the board size, your time, the number of hints if you used any, and a link to www.manextapps.com/zip/. It contains no name or ID. You choose the app and the person it goes to.</li>
+        <li><strong>Open a shared link</strong>: a link from a friend opens that board in the app. If you installed the app from such a link, the app reads Google Play's install referrer once, on your device, to open the same board. Nothing from it is sent to us.</li>
         <li><strong>Contact us</strong>: the app opens your email app with our address filled in. You decide what to send.</li>
       </ul>
     </section>
 
     <section id="security">
-      <h2>14. Security</h2>
+      <h2>15. Security</h2>
       <p>Because we do not collect your data, there is no copy of it on our side to protect or lose. Game data on your device is protected by Android's app sandbox. Google states that the data its ad SDK collects is encrypted in transit. No method of storage or transmission is completely secure, so we cannot guarantee absolute security.</p>
     </section>
 
     <section id="rights">
-      <h2>15. Your rights</h2>
+      <h2>16. Your rights</h2>
       <p>Depending on where you live, privacy laws such as the EU and UK General Data Protection Regulation (GDPR), Israel's Protection of Privacy Law, 5741 (1981), and U.S. state privacy laws may give you rights over your personal data. These can include the right to access, correct or delete it, to object to or restrict certain processing, to withdraw consent, and to complain to a data protection authority.</p>
       <ul>
-        <li>We do not hold personal data about you, so in most cases there is nothing for us to access or delete. Your game data is on your device and you can delete it as described in <a href="#retention">section 11</a>.</li>
+        <li>We do not hold personal data about you, so in most cases there is nothing for us to access or delete. Your game data is on your device and you can delete it as described in <a href="#retention">section 12</a>.</li>
         <li>For data collected by Google, use your ad choices in the app (<a href="#consent">section 6</a>), your device's ad settings (<a href="#ad-id">section 7</a>), and Google's tools described in the Google Privacy Policy.</li>
         <li>You can always contact us, and we will help as far as we are able.</li>
       </ul>
     </section>
 
     <section id="changes">
-      <h2>16. Changes to this policy</h2>
+      <h2>17. Changes to this policy</h2>
       <p>We may update this policy, for example if the app or the services it uses change. We will post the updated version on this page and change the effective date at the top. If a change is significant, we will also take reasonable steps to let you know, for example through the app's release notes.</p>
     </section>
 
     <section id="contact">
-      <h2>17. Contact</h2>
+      <h2>18. Contact</h2>
       <address>Email: <a href="mailto:manextapps@gmail.com">manextapps@gmail.com</a></address>
     </section>
   </main>
 
   <footer>
-    <p>Zip Puzzle, Privacy Policy. Effective date: October 26, 2026</p>
+    <p>Zip Puzzle, Privacy Policy. Effective date: November 7, 2026</p>
   </footer>
 </body>
 </html>
